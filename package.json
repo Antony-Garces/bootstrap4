@@ -1,0 +1,19 @@
+{
+  "name": "bootstrap4",
+  "version": "1.0.0",
+  "description": "este es un proyecto de practica para salida a produccion",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agp27/bootstrap4.git"
+  },
+  "author": "Antony Garcés",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/agp27/bootstrap4/issues"
+  },
+  "homepage": "https://github.com/agp27/bootstrap4#readme"
+}
