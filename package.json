@@ -17,7 +17,11 @@
     "url": "https://github.com/agp27/bootstrap4/issues"
   },
   "homepage": "https://github.com/agp27/bootstrap4#readme",
-  "dependencies": {},
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  },
   "devDependencies": {
     "lite-server": "^2.5.4"
   }
