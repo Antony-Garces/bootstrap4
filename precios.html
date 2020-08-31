@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <!-- build:css dist/precios.css-->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="node_modules/open-iconic/font/css/open-iconic-bootstrap.min.css">
+    <!-- endbuild -->
+
+    <title>Guia Hoteles</title>
+  </head>
+  <body>
+      <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+          <a href="#" class="navbar-brand">Hoteles</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>    
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                  <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                  <li class="nav-item"><a href="about.html" class="nav-link">Nosotros</a></li>
+                  <li class="nav-item active"><a href="precios.html" class="nav-link">Precio</a></li>
+                  <li class="nav-item"><a href="terminosycondiciones.html" class="nav-link">Terminos</a></li>
+                  <li class="nav-item"><a href="contacto.html" class="nav-link">Contacto</a></li>
+              </ul>
+          </div>
+
+      </nav>
+        <div class="jumbotron">
+            <h1 class="title">Hoteles</h1>
+        </div>
+        <div class="container">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Precio</li>
+                </ol>
+            </nav>
+
+            <ul class="nav nav-pills">
+                <li class="nav-item">
+                    <a href="#compara" class="nav-link active" id="compara-tab" data-toggle="pill" role="tab" aria-controls="compara" aria-selected="true">Compara</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#tarjetas" class="nav-link" id="tarjetas-tab" data-toggle="pill" role="tab" aria-controls="tarjetas" aria-selected="false">Tarjetas</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#comentarios" class="nav-link" id="comentarios-tab" data-toggle="pill" role="tab" aria-controls="comentarios" aria-selected="false">Comentarios</a>
+                </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="compara" role="tabpanel" aria-labelledby="compara-tab">
+                    <div class="table-responsive">
+                        <table class="table table-striped">
+                            <thead class="thead-dark">
+                                <th>Calidad</th>
+                                <th>Bogota</th>
+                                <th>Cali</th>
+                                <th>Medellin</th>
+                                <th>Neiva</th>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><span class="oi oi-star"></span></td>
+                                    <td>$100.000</td>
+                                    <td>$125.000</td>
+                                    <td>$130.000</td>
+                                    <td>$150.000</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="oi oi-star"></span>
+                                    <span class="oi oi-star"></span></td>
+                                    <td>$150.000</td>
+                                    <td>$165.000</td>
+                                    <td>$170.000</td>
+                                    <td>$180.000</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="oi oi-star"></span>
+                                    <span class="oi oi-star"></span>
+                                    <span class="oi oi-star"></span></td>
+                                    <td>$200.000</td>
+                                    <td>$225.000</td>
+                                    <td>$230.000</td>
+                                    <td>$250.000</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="oi oi-star"></span>
+                                    <span class="oi oi-star"></span>
+                                    <span class="oi oi-star"></span>
+                                    <span class="oi oi-star"></span></td>
+                                    <td>$250.000</td>
+                                    <td>$265.000</td>
+                                    <td>$275.000</td>
+                                    <td>$290.000</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="oi oi-star"></span>
+                                    <span class="oi oi-star"></span>
+                                    <span class="oi oi-star"></span>
+                                    <span class="oi oi-star"></span>
+                                    <span class="oi oi-star"></span></td>
+                                    <td>$300.000</td>
+                                    <td>$325.000</td>
+                                    <td>$330.000</td>
+                                    <td>$350.000</td>
+                                </tr>
+                            </tbody>
+
+                        </table>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="tarjetas" role="tabpanel" aria-labelledby="tarjetas-tab">
+                    <div class="accordion" id="accordionTarjetas">
+                        <div class="card">
+                            <div class="card-header" id="headingOne">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseBasica" aria-expanded="true" aria-controls="collapseBasica">Tarjeta Básica</button>
+                                </h5>
+                            </div>
+                            <div id="collapseBasica" class="collapse" aria-labelledby="headingOne" data-parent="#accordionTarjetas">
+                                <div class="card-body">
+                                    Podes reservar en 3 cuotas sin interés.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingTwo">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseVIP" aria-expanded="false" aria-controls="collapseVIP">Tarjeta VIP</button>
+                                </h5>
+                            </div>
+                            <div id="collapseVIP" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionTarjetas">
+                                <div class="card-body">
+                                    Podes reservar en 6 cuotas sin interés. Al llegar, recibirás una canasta de obsequio para compartir con tu familia
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingThree">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseBlack" aria-expanded="false" aria-controls="collapseBlack">Tarjeta Black</button>
+                                </h5>
+                            </div>
+                            <div id="collapseBlack" class="collapse" aria-labelledby="headingThree" data-parent="#accordionTarjetas">
+                                <div class="card-body">
+                                    Podes reservar en 12 cuotas sin interés. Al llegar, recibirás una canasta de obsequio para compartir con tu familia
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+                <div class="tab-pane fade" id="comentarios" role="tabpanel" aria-labelledby="comentarios-tab">Comentarios</div>  
+            </div>    
+        </div>
+    
+        <footer>
+            <div class="row">
+                <div class="col-sm-4 d-flex flex-column">
+                    <a href="http://www.facebook.com">Facebook</a><a class="fb-ic mr-3" role="button"><i class="fab fa-lg fa-facebook-f"></i></a>
+                    <a href="http://www.twitter.com">Twitter</a>
+                    <a href="http://www.instagram.com">Instagram</a>
+                    <a href="http://www.google.com">Google+</a>
+                    
+                </div>
+                <div class="col-sm-4">
+                    <address>
+                        <p><span class="oi oi-home footer-adress-icon" ></span> <i>Cr 9 # 9 - 35 edficio miraflorez, oficina 301</i></p> 
+                        <p><span class="oi oi-phone footer-adress-icon"></span> <i>+57 320 381 5115 </i></p>
+                        <p><span class="oi oi-envelope-closed"></span> <i>angarpas1986@gmail.com</i></p> 
+                    </address>
+                </div>
+                <div class="col-sm-4 d-flex flex-column align-items-end">
+                    <a href="about.html">Nosotros</a>
+                    <a href="precios.html">Precio</a>
+                    <a href="terminosycondiciones.html">Terminos y Condiciones</a>
+                    <a href="contacto.html">Contacto</a>
+                    
+                </div>
+            </div>
+        </footer>
+    
+      
+  
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- build:js dist/precios.js-->
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- endbuild -->
+  </body>
+</html>
